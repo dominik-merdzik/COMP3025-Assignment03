@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivPoster"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/movie_poster"/>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"
+            android:text="Movie Title"/>
+
+        <TextView
+            android:id="@+id/tvYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"/>
+        <TextView
+            android:id="@+id/tvRated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rated"/>
+        <TextView
+            android:id="@+id/tvReleased"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Released"/>
+        <TextView
+            android:id="@+id/tvRuntime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Runtime"/>
+        <TextView
+            android:id="@+id/tvGenre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"/>
+        <TextView
+            android:id="@+id/tvDirector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Director"/>
+        <TextView
+            android:id="@+id/tvWriter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Writer"/>
+        <TextView
+            android:id="@+id/tvActors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actors"/>
+        <TextView
+            android:id="@+id/tvPlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plot"
+            android:layout_marginTop="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_marginEnd="16dp"/>
+            <Button
+                android:id="@+id/btnAddToFavorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favorites"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
